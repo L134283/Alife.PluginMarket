@@ -1,0 +1,19 @@
+{
+  "id": "Alife.Function.AIModelUtility",
+  "name": "模型管理",
+  "author": "Alife官方",
+  "description": "提供模型下载与管理能力，基于ModelScope进行模型资源的下载和本地缓存管理。",
+  "defaultCategory": "Alife 官方/模型接入",
+  "environments": {
+    "pip": {
+      "modelscope": ""
+    }
+  },
+  "releases": {
+    "1.0.0": {
+      "date": "2026-6-14",
+      "note": "初始版本",
+      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/Alife.Function.AIModelUtility/1.0.0.zip"
+    }
+  }
+}

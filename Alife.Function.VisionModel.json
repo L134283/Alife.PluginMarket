@@ -3,6 +3,9 @@
   "name": "视觉分析模型",
   "author": "Alife官方",
   "description": "包含三种视觉分析模型：Qwen本地视觉分析、OpenAI兼容在线视觉分析、MiniCPM轻量本地视觉分析。",
+  "dependencies": {
+    "Alife.Function.AIModelUtility": ""
+  },
   "environments": {
     "pip": {
       "torch": "",

@@ -7,8 +7,20 @@
     "pip": {
       "numpy": "",
       "torch": "",
+      "torchvision": "",
       "genie-tts": "",
-      "edge-tts": ""
+      "edge-tts": "",
+      "Cython": "",
+      "librosa": "",
+      "matplotlib": "",
+      "phonemizer": "",
+      "scipy": "",
+      "tensorboard": "",
+      "Unidecode": "",
+      "cn2an": "",
+      "gradio": "",
+      "pypinyin": "",
+      "jieba": ""
     }
   },
   "releases": {
