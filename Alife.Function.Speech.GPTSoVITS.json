@@ -1,6 +1,7 @@
 {
   "id": "Alife.Function.Speech.GPTSoVITS",
   "name": "GPT-SoVITS 语音合成",
+  "author": "ikun810",
   "description": "调用本地 GPT-SoVITS API 进行语音合成，需本地部署并运行 GPT-SoVITS 服务。",
   "dependencies": {},
   "environments": {},
