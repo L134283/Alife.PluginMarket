@@ -3,12 +3,12 @@
   "name": "IrmiaDevKit - 弥亚开发工具箱",
   "author": "Jiangtangxi",
   "maintainer": "Jiangtangxi",
-  "description": "适配新版Alife框架：自引用InteractiveModule<IrmiaDevKitModule>写法，提供46个Python开发工具",
+  "description": "重写为[XmlFunction]属性注册方式，提供ExecTool和ListTools两个公开接口，调用46个Python开发工具",
   "defaultCategory": "用户自制/开发工具",
   "releases": {
-    "1.0.2": {
+    "1.0.3": {
       "date": "2026-06-15",
-      "note": "适配新版框架: InteractiveModule<IrmiaDevKitModule>自引用写法",
+      "note": "重写为[XmlFunction]属性注册方式，单入口ExecTool调用46个工具，修复InteractiveModule<>和ModuleAttribute找不到的问题",
       "file": "https://github.com/xioaxixi877/IrmiaDevKit/archive/refs/heads/main.zip"
     }
   }
