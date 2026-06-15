@@ -1,0 +1,20 @@
+{
+  "id": "Alife.Function.DeerPipe",
+  "name": "🦌管 (DeerPipe)",
+  "description": "移植自 nonebot-plugin-deer-pipe 的群管签到插件，提供签到、补签、日历、排名功能。来源：https://github.com/SamuNatsu/nonebot-plugin-deer-pipe",
+  "dependencies": {
+    "Alife.Function.QChat": "1.0"
+  },
+  "environments": {
+    "pip": {
+      "Pillow": ">=10.0.0"
+    }
+  },
+  "releases": {
+    "1.0.0": {
+      "date": "2026-06-16",
+      "note": "初始版本",
+      "file": "https://github.com/ikun810/AlifePlugins/releases/download/v1.0.0/Alife.Function.DeerPipe.zip"
+    }
+  }
+}
