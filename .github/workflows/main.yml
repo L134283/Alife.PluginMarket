@@ -7,12 +7,14 @@ on:
 jobs:
   automerge:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check file ownership
         uses: actions/github-script@v7
@@ -20,6 +22,7 @@ jobs:
           script: |
             const prAuthor = context.payload.pull_request.user.login;
             const baseSha = context.payload.pull_request.base.sha;
+            const headSha = context.payload.pull_request.head.sha;
             const { data: files } = await github.rest.pulls.listFiles({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -29,13 +32,12 @@ jobs:
             const { execSync } = require('child_process');
 
             const authorEmail = execSync(
-              `git log --format="%ae" -1 ${context.payload.pull_request.head.sha}`,
+              `git log --format="%ae" -1 ${headSha}`,
               { encoding: 'utf-8' }
             ).trim();
 
             for (const file of files) {
               const filename = file.filename;
-
               try {
                 const existsInBase = execSync(
                   `git show ${baseSha}:"${filename}" > /dev/null 2>&1 && echo 0 || echo 1`,
@@ -47,14 +49,14 @@ jobs:
                     `git log --diff-filter=A --follow --format="%ae" -- "${filename}"`,
                     { encoding: 'utf-8' }
                   ).trim();
-                  
+
                   if (!log) {
                     core.setFailed(`File "${filename}" has no creation commit`);
                     return;
                   }
-                  
+
                   const fileCreatorEmail = log.split('\n').pop();
-                  
+
                   if (fileCreatorEmail !== authorEmail) {
                     core.setFailed(
                       `File "${filename}" created by "${fileCreatorEmail}", not "${authorEmail}"`
@@ -68,12 +70,20 @@ jobs:
               }
             }
 
-            core.info(`All files created by ${authorEmail}, proceeding with merge`);
+            core.info(`All files owned by ${prAuthor}, proceeding with merge`);
 
-      - name: automerge
-        uses: "pascalgn/automerge-action@629929da409181990e4e638dcf84a74e11d3af66"
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          MERGE_LABELS: ""
-          MERGE_METHOD: "squash"
-          MERGE_COMMIT_MESSAGE: "pull-request-title"
+      - name: Merge PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              await github.rest.pulls.merge({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                merge_method: 'squash'
+              });
+              core.info('PR merged successfully');
+            } catch (e) {
+              core.setFailed(`Merge failed: ${e.message}`);
+            }
