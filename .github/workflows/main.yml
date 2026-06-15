@@ -47,6 +47,9 @@ jobs:
               return;
             }
 
+            core.info(`PR author: ${prAuthor} (${authorEmail})`);
+            core.info(`---`);
+
             for (const file of files) {
               const filename = file.filename;
               try {
@@ -67,19 +70,27 @@ jobs:
                   }
 
                   const fileCreatorEmail = log.split('\n').pop();
+                  const match = fileCreatorEmail === authorEmail ? 'PASS' : 'BLOCKED';
+
+                  core.info(
+                    `[${match}] File: ${filename} | Creator: ${fileCreatorEmail} | Author: ${authorEmail}`
+                  );
 
                   if (fileCreatorEmail !== authorEmail) {
                     core.setFailed(
-                      `File "${filename}" created by "${fileCreatorEmail}", not "${authorEmail}"`
+                      `Blocked: "${filename}" created by "${fileCreatorEmail}", not "${authorEmail}"`
                     );
                     return;
                   }
+                } else {
+                  core.info(`[NEW] File: ${filename} (new file, no check needed)`);
                 }
               } catch (e) {
                 core.warning(`Failed to check "${filename}": ${e.message}`);
               }
             }
 
+            core.info(`---`);
             core.info(`All files owned by ${prAuthor}, proceeding with merge`);
 
       - name: Merge PR
