@@ -8,6 +8,11 @@
       "date": "2026-06-15",
       "note": "初始版本，支持热编译cs工作流",
       "file": "https://github.com/AinaLife-ai/Alife_OutputTag_AutoPatcher/releases/download/v1.0.0/OutputTagAutoPatcher_1.0.0.zip"
+    },
+    "1.0.1": {
+      "date": "2026-06-15",
+      "note": "修复: 修改插件分类从官方到用户自制",
+      "file": "https://github.com/AinaLife-ai/Alife_OutputTag_AutoPatcher/releases/download/v1.0.0/OutputTagAutoPatcher_1.0.0.zip"
     }
   }
 }
