@@ -13,9 +13,22 @@
   },
   "environments": {
     "pip": {
+      "numba": "",
+      "Cython": "",
+      "librosa": "",
+      "matplotlib": "",
       "numpy": "",
+      "phonemizer": "",
+      "scipy": "",
+      "tensorboard": "",
       "torch": "",
-      "numba": ""
+      "torchvision": "",
+      "Unidecode": "",
+      "ffmpeg": "",
+      "cn2an": "",
+      "gradio": "",
+      "pypinyin": "",
+      "jieba": ""
     }
   },
   "releases": {
