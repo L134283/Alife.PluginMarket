@@ -115,7 +115,7 @@ public class MyModule(
   "tags": ["视觉模型", "官方"],//插件标签，用于分类筛选（可选）
   "source": "https://github.com/xxx",//插件主页或联系方式（可选）
   "dependencies": { //依赖的其他插件
-    "{PluginID}": "{VersionDescription}" 
+    "{PluginID}": "{VersionDescription}" //版本描述采用pip格式，支持`>=`,`<=`,`==`,留空
   },
   "environments": { //依赖的环境（支持pip和nuget）
     "nuget": {
