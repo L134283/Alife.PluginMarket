@@ -14,7 +14,8 @@
   "environments": {
     "pip": {
       "numpy": "",
-      "torch": ""
+      "torch": "",
+      "numba": ""
     }
   },
   "releases": {
