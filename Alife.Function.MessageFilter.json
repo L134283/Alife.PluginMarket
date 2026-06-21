@@ -8,6 +8,11 @@
   ],
   "source": "https://github.com/BDFFZI/Alife",
   "releases": {
+    "1.1.0": {
+      "date": "2026-6-22",
+      "note": "1. 增加标签缺失报错功能，当前检测到用户消息和ai回复消息不满足条件时，发送附加信息\n2. 常驻提示词增加间隔几条一发的功能",
+      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/Alife.Function.MessageFilter/1.1.0.zip"
+    },
     "1.0.1": {
       "date": "2026-6-17",
       "note": "1. 恢复口语化的时间戳提示\n2. 优化每次注入提示词，引导AI查询文档，使用正确标签",

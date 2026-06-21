@@ -12,7 +12,12 @@
     "Alife.Function.Speech": ""
   },
   "releases": {
-        "1.1.0": {
+    "1.2.0": {
+      "date": "2026-6-22",
+      "note": "1. 将QQ号信息常驻，并增加防范提示词\n2. 增加私聊和群聊每消息的附加提示词",
+      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/Alife.Function.QChat/1.2.0.zip"
+    },
+    "1.1.0": {
       "date": "2026-6-18",
       "note": "1. 优化群消息状态的监视面板，适配多群情况\n2. 增加非激活时群缓存消息功能，使AI激活时能有一定的上下文\n3. 增加主动查询群聊天记录的功能",
       "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/Alife.Function.QChat/1.1.0.zip"
