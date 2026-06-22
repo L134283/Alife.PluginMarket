@@ -2,11 +2,7 @@
   "id": "Alife.Plugin.QQEmoji",
   "name": "QQ表情包管家",
   "author": "doro",
-  "description": "对AI说「存为xxx」即可保存图片到指定路径，AI按策略和当下聊天内容自动发送表情包。支持自定义概率触发、情绪加权、冷却防刷屏。",
-
-  "tags": [
-    "QQ相关工具"
-  ],
+  "description": "对AI说「存为xxx」即可保存图片到指定路径，AI按策略和当下聊天内容自动发图。支持 qimage 格式（type/targetid）、ChatOver 事件直接追加到 bot 回复、冷却防刷屏。",
 
   "dependencies": {
     "Alife.Function.FunctionCaller": ""
@@ -17,11 +13,20 @@
     "pip": {}
   },
 
+  "tags": [
+    "QQ相关工具"
+  ],
+
   "releases": {
+    "1.1.0": {
+      "date": "2026-06-22",
+      "note": "请务必下载最新版本，重构并修复bug，功能不变：存图+AI智能发图，支持策略模式、情绪加权、冷却防刷屏",
+      "file": "https://github.com/L134283/Alife-QQEmoji/releases/download/QQEmoji-v1.1.0/Alife.Plugin.QQEmoji.zip",
+    },
     "1.0.0": {
       "date": "2026-06-21",
-      "note": "初始版本：存图+AI智能发图，支持策略模式、情绪加权、冷却防刷屏",
-      "file": "https://github.com/L134283/Alife-QQEmoji/releases/download/QQEmoji/Alife.Plugin.QQEmoji.zip"
+      "note": "（废弃）初始版本：存图+AI智能发图，支持策略模式、情绪加权、冷却防刷屏",
+      "file": "https://github.com/L134283/Alife-QQEmoji/releases/download/QQEmoji/Alife.Plugin.QQEmoji.zip",
     }
   }
 }
