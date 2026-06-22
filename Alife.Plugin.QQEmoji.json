@@ -2,7 +2,7 @@
   "id": "Alife.Plugin.QQEmoji",
   "name": "QQ表情包管家",
   "author": "doro",
-  "description": "对AI说「存为xxx」即可保存图片到指定路径，AI按策略和当下聊天内容自动发图。支持 qimage 格式（type/targetid）、ChatOver 事件直接追加到 bot 回复、冷却防刷屏。",
+  "description": "AI按策略和当下聊天内容自动附带表情包，支持情绪关键词加权、冷却防刷屏。对AI说「存为xxx」即可保存图片到自定义路径",
 
   "dependencies": {
     "Alife.Function.FunctionCaller": ""
