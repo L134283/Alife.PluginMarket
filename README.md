@@ -142,15 +142,10 @@ Alife的运行建立在如下环境基础上
 - 应用目录（客户端本身的安装目录）：{{AppContext.BaseDirectory}}
 - 存储目录（存储角色数据、插件配置等）：{{AlifePath.StorageFolderPath}}
 - 运行时目录（存储python等运行时环境）：{{AlifePath.RuntimeFolderPath}}
-- 原始插件目录（插件源码目录）：{{pluginRoot}}
-- 沙盒插件目录（热编译时使用的沙盒插件目录）：{{pluginCopyRoot}}（Alife中的AI请使用沙盒插件目录，这也是热编译的目录）
+- 插件目录（插件源码目录）：{存储目录}/Plugins
 - 角色目录（对于每个角色的配置、记忆、个人文件等）：{存储目录}/Character
 - 模块配置目录（当模块使用配置功能时，配置的存储目录）：{存储目录}/Configuration
 - 特定于角色的模块配置目录（优先级比全局高）：{角色目录}/Configuration
-
-### 开发工具（参考DeveloperService源码）
-
-{{xmlHandler.FunctionDocument()}}
 
 ### 开发步骤
 
@@ -171,6 +166,7 @@ using System.ComponentModel;
 using System.Threading.Tasks;
 using Alife.Framework;
 using Alife.Function.FunctionCaller;
+using Alife.Function.Interpreter;
 using Microsoft.Extensions.Logging;
 
 public class MyModuleData
