@@ -1,0 +1,20 @@
+{
+  "id": "Alife.Function.FileService",
+  "name": "文件操作",
+  "author": "Alife官方",
+  "description": "提供文件读写、编辑、搜索能力，包括创建覆盖文件、查询目录、替换编辑、Glob统配搜索和正则批量搜索。",
+  "tags": [
+    "官方"
+  ],
+  "source": "https://github.com/BDFFZI/Alife",
+  "dependencies": {
+    "Alife.Function.FunctionCaller": ""
+  },
+  "releases": {
+    "1.0.0": {
+      "date": "2026-6-26",
+      "note": "1. 增加创建覆盖文本文件的功能\n2. 增加查询文件和目录的功能\n3. 增加按替换编辑文件的功能\n4. 增加Glob统配搜索文件功能\n5. 增加正则表达式批量搜索文件内容功能",
+      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/Alife.Function.FileService/1.0.0.zip"
+    }
+  }
+}

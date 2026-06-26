@@ -16,6 +16,11 @@
     }
   },
   "releases": {
+    "1.1.0": {
+      "date": "2026-6-26",
+      "note": "1. 导航到网址时增加超时判断防止无限等待\n2. 优化函数名减少歧义并减少冗余提示词\n3. 优化观察页面的长度，统一受字数影响\n4. 探测到的输入框元素，直接显示输入框，而不是内部文本\n5. 增加对弹出式窗口一定程度的兼容支持，从而在新窗口登录等操作",
+      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/Alife.Function.Browser/1.1.0.zip"
+    },
     "1.0.0": {
       "date": "2026-6-11",
       "note": "初始版本",

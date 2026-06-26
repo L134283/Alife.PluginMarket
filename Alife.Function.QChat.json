@@ -12,6 +12,11 @@
     "Alife.Function.Speech": ""
   },
   "releases": {
+    "1.3.0": {
+      "date": "2026-6-26",
+      "note": "1. 改为显式注入（QQ聊天属于高频交互，老是查文档会导致未命中token开销变大）\n2. 微调提示词并改为初始注入",
+      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/Alife.Function.QChat/1.3.0.zip"
+    },
     "1.2.0": {
       "date": "2026-6-22",
       "note": "1. 将QQ号信息常驻，并增加防范提示词\n2. 增加私聊和群聊每消息的附加提示词",

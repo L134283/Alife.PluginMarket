@@ -11,6 +11,11 @@
     "Alife.Function.FunctionCaller": ""
   },
   "releases": {
+    "1.1.0": {
+      "date": "2026-6-26",
+      "note": "1. 将Await改为纯函数等待\n2. 提示重置改放到最高间隔周期报点时提示\n3. 调整部分提示词，并改为初始注入\n4. 发生碰撞时不再忽略，而是尝试同样的时间后重试",
+      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/Alife.Function.SystemEvent/1.1.0.zip"
+    },
     "1.0.0": {
       "date": "2026-6-11",
       "note": "初始版本",
