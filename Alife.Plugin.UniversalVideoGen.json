@@ -1,7 +1,7 @@
 {
   "id": "Alife.Plugin.UniversalVideoGen",
   "name": "通用生视频",
-  "author": "L134283",
+  "author": "doro",
   "description": "通用生视频插件，支持最多 4 组 API 配置，兼容 Agnes / Wan 两种格式，支持文生视频和图生视频。异步任务模式，后台轮询完成通知。",
 
   "dependencies": {
