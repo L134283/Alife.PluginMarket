@@ -2,7 +2,7 @@
   "id": "Alife.Plugin.QQEmoji",
   "name": "QQ表情包管家",
   "author": "doro",
-  "description": "AI按策略和当下聊天内容自动附带表情包，支持情绪关键词加权、冷却防刷屏。对AI说「存为xxx」即可保存图片到自定义路径。感谢爱奈丽提供的插件参考",
+  "description": "AI按策略和当下聊天内容自动附带表情包，支持情绪关键词加权、冷却防刷屏。对AI说「存为xxx」即可保存图片到自定义路径。支持在线搜图（ChineseBQB表情包库）。感谢爱奈丽提供的插件参考",
 
   "dependencies": {
     "Alife.Function.FunctionCaller": ""
@@ -18,6 +18,11 @@
   ],
 
   "releases": {
+    "1.3.0": {
+      "date": "2026-06-30",
+      "note": "新增在线搜图功能：AI可用 SearchBqbOnline 搜索 ChineseBQB 在线表情包库（数万张），搜到后用 SaveImage 下载到本地再用 qimage 发送。支持多关键词搜索、本地缓存、可配置结果数量。新增数据源切换（镜像源/GitHub源，默认镜像源），修复索引下载失败问题，UI提供手动下载指引",
+      "file": "https://github.com/L134283/Alife-QQEmoji/releases/download/QQEmoji-v1.3.0/Alife.Plugin.QQEmoji.zip"
+    },
     "1.2.0": {
       "date": "2026-06-23",
       "note": "修复已知bug，请务必更新。新增：表情包列表启动时注入系统提示词、表情包列表自动更新（可选：达到存图数量触发/表情包显示上限）、日志输出开关、UI配置面板完善",
