@@ -3,6 +3,9 @@
   "name": "千瞳",
   "author": "1chuxin",
   "description": "千重视角，洞察万象。多路视觉 API 自动容灾，智能切换。",
+  "tags": [
+    "视觉模型"
+  ],
   "dependencies": {
     "Alife.Function.Vision": ""
   },
@@ -11,6 +14,11 @@
       "date": "2026-6-17",
       "note": "初始版本",
       "file": "https://github.com/1chuxin/1chuxin-Alife.VisionRouter/releases/download/v1.0.0/Alife.Function.Vision.VisionRouter.zip"
+    },
+    "2.0.0": {
+      "date": "2026-7-1",
+      "note": "新增最大输出Token配置、API预设按钮（智谱/小米/OpenCode/Agnes一键填入）、推理超量自动重试、独立分类至初心的小工具、图片缓存减少重复读取、超时配置优化、错误提示优化",
+      "file": "https://github.com/1chuxin/1chuxin-Alife.VisionRouter/releases/download/2.0.0/Alife.Function.Vision.VisionRouter.zip"
     }
   }
 }
