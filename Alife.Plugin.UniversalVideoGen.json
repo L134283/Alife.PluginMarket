@@ -28,6 +28,11 @@
       "date": "2026-06-28",
       "note": "优化日志格式；修复 MaxDownloadBytes 编译错误；新增 Agnes 本地路径校验；调整超时配置；清理冗余代码",
       "file": "https://github.com/L134283/Alife-UniversalVideoGen/releases/download/UniversalVideoGen-v1.0.1/Alife.Plugin.UniversalVideoGen.zip"
+    },
+    "1.0.2": {
+      "date": "2026-07-04",
+      "note": "修复系统提示词中函数文档重复注入的问题（XmlFunctionCaller 已自动注入，删除手动追加的重复文档）",
+      "file": "https://github.com/L134283/Alife-UniversalVideoGen/releases/download/UniversalVideoGen-v1.0.2/Alife.Plugin.UniversalVideoGen.zip"
     }
   }
 }
