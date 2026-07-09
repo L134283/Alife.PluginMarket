@@ -1,0 +1,28 @@
+{
+  "id": "Alife.Function.Speech.GenericTTS",
+  "name": "GPT-SoVITS",
+  "author": "1chuxin",
+  "description": "【务必关闭「语音说话」模块】本地 GPT-SoVITS 语音合成。V2 支持流式输出；speak lang 可随时切换目标语言。",
+  "dependencies": {
+    "Alife.Function.Speech": "",
+    "Alife.Function.FunctionCaller": ""
+  },
+  "environments": {
+    "nuget": {
+      "NAudio": ">=2.3.0"
+    }
+  },
+  "tags": [
+    "语音模型"
+  ],
+  "source": "https://github.com/1chuxin/1chuxin-Alife.GenericTTS",
+  "releases": {
+    "1.0.0": {
+      "date": "2026-7-9",
+      "note": "首发：本地 GPT-SoVITS 对接（V1/V2 双轨、流式/文件播放）；安装目录扫描音色预设；speak 完整接管合成+播放；长文本智能拆段（≤100 字/段、拆段 cut1）；speak lang 切换目标语言。使用前请关闭角色「语音说话」模块。",
+      "file": "https://github.com/1chuxin/1chuxin-Alife.GenericTTS/releases/download/v1.0.0/Alife.Function.Speech.GenericTTS.zip",
+      "dependencies": null,
+      "environments": null
+    }
+  }
+}
