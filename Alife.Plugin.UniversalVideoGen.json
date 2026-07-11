@@ -38,6 +38,11 @@
       "date": "2026-07-11",
       "note": "后端重构：提取 ReadImageAsDataUriAsync/DetectExtension/SendRequestAsync 公共方法消除重复代码；修复 contentLength 空值检查；移除冗余日志。UI 重构：粉色主题设计模式，注入 CSS + 自定义 HTML + AntDesign 组件，流光标题、状态徽标、预设按钮动效、折叠组箭头旋转、RadioGroup 接口选择。",
       "file": "https://github.com/L134283/Alife-UniversalVideoGen/releases/download/UniversalVideoGen-v1.1.0/Alife.Plugin.UniversalVideoGen.zip"
+    },
+    "1.1.1": {
+      "date": "2026-07-11",
+      "note": "修复 Agnes 视频生成失败：轮询响应中视频 URL 字段从 remixed_from_video_id 改为 url（按官方文档）；移除不存在的 succeeded 状态判断；添加轮询状态日志。",
+      "file": "https://github.com/L134283/Alife-UniversalVideoGen/releases/download/UniversalVideoGen-v1.1.1/Alife.Plugin.UniversalVideoGen.zip"
     }
   }
 }
