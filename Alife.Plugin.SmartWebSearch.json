@@ -2,7 +2,8 @@
   "id": "Alife.Plugin.SmartWebSearch",
   "name": "网络智能搜索",
   "author": "doro",
-  "description": "让你的桌宠拥有网络搜索的能力！百度AI总结搜索(搜索+大模型总结一步到位) + 智能搜索生成(标准版，支持可选深度搜索/知识注入/追问) + 双引擎搜索(Tavily+百度智能路由) + 百度热搜(9个垂直分类) + 智能识图(图片URL自动下载识别)。多账号轮换，结果缓存，图片自动压缩。",
+  "source": "https://github.com/L134283/Alife-SmartWebSearch",
+    "description": "让你的桌宠拥有网络搜索的能力！百度AI总结搜索(搜索+大模型总结一步到位) + 智能搜索生成(标准版，支持可选深度搜索/知识注入/追问) + 双引擎搜索(Tavily+百度智能路由) + 百度热搜(9个垂直分类) + 智能识图(图片URL自动下载识别)。多账号轮换，结果缓存，图片自动压缩。",
 
   "dependencies": {
     "Alife.Function.FunctionCaller": ""
