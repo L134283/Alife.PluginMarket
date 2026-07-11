@@ -1,0 +1,27 @@
+{
+  "id": "Alife.Function.Auditory.Voiceprint",
+  "name": "声纹识别",
+  "author": "1chuxin",
+  "description": "基于 CAM++ 的本地离线声纹识别，支持多人注册与识别，自动持久化。跟随听觉模型同步识别，声纹结果自动注入 ASR 语音消息。",
+  "tags": [
+    "听觉模型",
+    "初心的小工具"
+  ],
+  "dependencies": {
+    "Alife.Function.Auditory": "",
+    "Alife.Function.AIModelUtility": ""
+  },
+  "environments": {
+    "nuget": {
+      "org.k2fsa.sherpa.onnx": ""
+    }
+  },
+  "source": "https://github.com/1chuxin/1chuxin-Alife-Auditory.Voiceprint",
+  "releases": {
+    "1.0.0": {
+      "date": "2026-07-11",
+      "note": "基于 CAM++ 的本地声纹识别，支持多人注册与识别，自动持久化。全新主题化 UI：Hero 品牌头图 + 动画入场 + 模型下载管理 + 三组环境预设 + 参数收起展开 + 测试验证 + 说话人列表（彩色头像）。跟随听觉模型同步识别，声纹结果注入 ASR 消息。",
+      "file": "https://github.com/1chuxin/1chuxin-Alife-Auditory.Voiceprint/releases/download/v1.0.0/Alife.Function.Auditory.Voiceprint.zip"
+    }
+  }
+}
