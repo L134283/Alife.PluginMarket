@@ -16,6 +16,11 @@
     }
   },
   "releases": {
+    "3.1.0": {
+      "date": "2026-7-13",
+      "note": "非默认窗口状态不再获取窗口大小，当无法获取窗口大小时，下次恢复窗口默认最大化",
+      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/Alife.Function.Browser/3.1.0.zip"
+    },
     "3.0.0": {
       "date": "2026-7-13",
       "note": "1. 解决观察页面时的限制字数与实际不符的问题\n2. 解决弹出窗口会被高亮显示的问题，期望行为应该是静默的\n3. 将分页字数可配置化\n4. 观察功能和获取元素信息功能重做，增强ai识别浏览器环境的能力\n5. 将前端基座改为Form实现\n6. 支持关闭缩小到托盘",
