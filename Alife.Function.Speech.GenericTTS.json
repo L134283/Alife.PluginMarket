@@ -2,7 +2,7 @@
   "id": "Alife.Function.Speech.GenericTTS",
   "name": "GPT-SoVITS",
   "author": "1chuxin",
-  "description": "【务必关闭「语音说话」模块】本地 GPT-SoVITS 语音合成。V2 支持流式输出；speak lang 可随时切换目标语言。",
+  "description": "本地 GPT-SoVITS 语音合成。支持 V1 桌宠对齐 / V2 快速说话；分步配置向导；speak lang 可切换目标语种。V2 请关「语音说话」，V1 请开「语音说话」。",
   "dependencies": {
     "Alife.Function.Speech": "",
     "Alife.Function.FunctionCaller": ""
@@ -12,7 +12,9 @@
       "NAudio": ">=2.3.0"
     }
   },
-  "tags": [ "语音模型" ],
+  "tags": [
+    "语音模型"
+  ],
   "source": "https://github.com/1chuxin/1chuxin-Alife.GenericTTS",
   "releases": {
     "1.0.0": {
@@ -26,6 +28,13 @@
       "date": "2026-7-13",
       "note": "V1 桌宠兼容 + 预设扫描恢复 + 默认目标语种 + speak lang 支持。V2 流式快速（听感优先 + 不漏播）。预合成优化。上下文注入 speak/lang 与 QQ 语音切语种说明。修复循环依赖与流式并发抢 TTS 导致漏播。",
       "file": "https://github.com/1chuxin/1chuxin-Alife.GenericTTS/releases/download/v1.1.0/Alife.Function.Speech.GenericTTS.zip",
+      "dependencies": null,
+      "environments": null
+    },
+    "1.2.0": {
+      "date": "2026-7-14",
+      "note": "傻瓜式 7 步配置向导（模式/文件夹/声音/语种端口/说话方式/确认/模块）。主界面精简：引导完成后仅显示当前音色，可一键更换。V1/V2 常用项卡片化；参考音/文本/语种强制校验。代码瘦身与死代码清理，播放档位与权重推荐逻辑收敛。",
+      "file": "https://github.com/1chuxin/1chuxin-Alife.GenericTTS/releases/download/v1.2.0/Alife.Function.Speech.GenericTTS.zip",
       "dependencies": null,
       "environments": null
     }
