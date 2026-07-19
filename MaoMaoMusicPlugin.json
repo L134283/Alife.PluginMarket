@@ -16,12 +16,12 @@
     "1.0.0": {
       "date": "2026-07-19",
       "note": "初始版本，支持搜索和下载",
-      "file": "https://raw.githubusercontent.com/BDFFZI/Alife.OfficialPluginStorage/main/MaoMaoMusicPlugin/1.0.0/MaoMaoMusicPlugin_1.0.0.zip"
+      "file": "https://raw.githubusercontent.com/BDFFZI/Alife.OfficialPluginStorage/main/MaoMaoMusicPlugin/1.0.0.zip"
     },
     "1.0.1": {
       "date": "2026-07-19",
       "note": "新增音质选项：low/medium/high/lossless，默认low",
-      "file": "https://raw.githubusercontent.com/BDFFZI/Alife.OfficialPluginStorage/main/MaoMaoMusicPlugin/1.0.1/MaoMaoMusicPlugin_1.0.1.zip"
+      "file": "https://raw.githubusercontent.com/BDFFZI/Alife.OfficialPluginStorage/main/MaoMaoMusicPlugin/1.0.1.zip"
     }
   }
 }
