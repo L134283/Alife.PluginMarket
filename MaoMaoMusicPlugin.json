@@ -1,0 +1,16 @@
+{
+  "id": "MaoMaoMusicPlugin",
+  "name": "MaoMaoMusicPlugin",
+  "author": "真央",
+  "description": "在线点歌助手，可搜索网易云音乐并下载。",
+  "tags": ["音乐", "点歌", "下载", "网易云"],
+  "source": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/tree/main/MaoMaoMusicPlugin",
+  "dependencies": [],
+  "environments": ["desktop"],
+  "releases": [
+    {
+      "version": "1.0.0",
+      "file": "https://raw.githubusercontent.com/BDFFZI/Alife.OfficialPluginStorage/refs/heads/main/MaoMaoMusicPlugin/1.0.0/MaoMaoMusicPlugin.zip"
+    }
+  ]
+}
