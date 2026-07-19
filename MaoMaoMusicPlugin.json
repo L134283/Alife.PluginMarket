@@ -2,19 +2,26 @@
   "id": "MaoMaoMusicPlugin",
   "name": "MaoMaoMusicPlugin",
   "author": "真央",
-  "description": "在线点歌助手，可搜索网易云音乐并下载。",
+  "description": "在线点歌助手，可搜索网易云音乐并下载。支持音质选择：low(128k)/medium(192k)/high(256k)/lossless(无损)。",
   "tags": [
     "音乐",
     "点歌",
-    "下载",
-    "网易云"
+    "网易云",
+    "下载"
   ],
-  "source": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/tree/main/MaoMaoMusicPlugin",
+  "source": "https://github.com/BDFFZI/Alife.OfficialPluginStorage",
+  "dependencies": [],
+  "environments": {},
   "releases": {
     "1.0.0": {
-      "date": "2026-7-19",
-      "note": "初始版本",
-      "file": "https://raw.githubusercontent.com/BDFFZI/Alife.OfficialPluginStorage/refs/heads/main/MaoMaoMusicPlugin/1.0.0/MaoMaoMusicPlugin.zip"
+      "date": "2026-07-19",
+      "note": "初始版本，支持搜索和下载",
+      "file": "https://raw.githubusercontent.com/BDFFZI/Alife.OfficialPluginStorage/main/MaoMaoMusicPlugin/1.0.0/MaoMaoMusicPlugin_1.0.0.zip"
+    },
+    "1.0.1": {
+      "date": "2026-07-19",
+      "note": "新增音质选项：low/medium/high/lossless，默认low",
+      "file": "https://raw.githubusercontent.com/BDFFZI/Alife.OfficialPluginStorage/main/MaoMaoMusicPlugin/1.0.1/MaoMaoMusicPlugin_1.0.1.zip"
     }
   }
 }
