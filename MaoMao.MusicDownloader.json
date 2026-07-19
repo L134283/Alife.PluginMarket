@@ -5,7 +5,9 @@
   "description": "输入歌名就能从网易云搜索下载音乐文件。支持按歌名搜索下载和按ID直链下载，支持多音质选择。基于yt-dlp实现。",
   "tags": [
     "音乐",
-    "下载"
+    "下载",
+    "点歌",
+    "网易云"
   ],
   "source": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/blob/main/MaoMao.MusicDownloader/MaoMaoMusicDownloader.cs",
   "environments": {},
