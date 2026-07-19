@@ -10,12 +10,11 @@
     "网易云"
   ],
   "source": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/tree/main/MaoMaoMusicPlugin",
-  "dependencies": [],
-  "environments": {},
-  "releases": [
-    {
-      "version": "1.0.0",
+  "releases": {
+    "1.0.0": {
+      "date": "2026-7-19",
+      "note": "初始版本",
       "file": "https://raw.githubusercontent.com/BDFFZI/Alife.OfficialPluginStorage/refs/heads/main/MaoMaoMusicPlugin/1.0.0/MaoMaoMusicPlugin.zip"
     }
-  ]
+  }
 }
