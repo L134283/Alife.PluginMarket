@@ -29,6 +29,11 @@
       "date": "2026-07-19",
       "note": "图生图提示词复用 PromptStyle 规则（不再直接传中文指令）；denoise 降噪强度从高级模式拆出、简单模式始终可用；AI 智能选择降噪强度",
       "file": "https://github.com/L134283/Alife-Comfyui/releases/download/Comfyui-v1.0.2/Alife.Plugin.Comfyui.zip"
+    },
+    "1.0.3": {
+      "date": "2026-07-21",
+      "note": "新增多工作流支持（命名工作流卡片，含启用/禁用开关，默认关闭）；多工作流开启时 AI 可传 workflow 参数切换；默认参数 UI 排版优化（复选框独立全宽行、条件输入自适应）；预设三张工作流卡片默认关闭",
+      "file": "https://github.com/L134283/Alife-Comfyui/releases/download/Comfyui-v1.0.3/Alife.Plugin.Comfyui.zip"
     }
   }
 }
