@@ -11,10 +11,10 @@
   ],
   "source": "https://github.com/BDFFZI/Alife.OfficialPluginStorage",
   "releases": {
-    "1.0.0": {
+    "1.0.1": {
       "date": "2026-07-20",
-      "note": "初始版本，支持获取媒体信息和播放控制",
-      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/BDFFZI.MaoMao.MediaControl/1.0.0.zip"
+      "note": "修复类名引用错误",
+      "file": "https://github.com/BDFFZI/Alife.OfficialPluginStorage/raw/refs/heads/main/BDFFZI.MaoMao.MediaControl/1.0.1.zip"
     }
   }
 }
